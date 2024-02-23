@@ -16,7 +16,7 @@ class TestLogin:
 
     def test_valid_credentials(self):
         login_page = SigninPage(self.driver)
-        # login_page.close_popup()
+        login_page.close_popup()
         login_page.click_signin_register_button()
         login_page.set_email_address(TestData.EMAIL)
         login_page.set_passwd(TestData.PASSWORD)
