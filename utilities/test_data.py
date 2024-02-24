@@ -4,5 +4,9 @@ class TestData:
     PASSWORD = "xusTiz-cubbo3-gigtez"
 
     SUCCESS_MESSAGES = [
-        "Signed in successfully."
+        "Signed in successfully.",
+    ]
+
+    ERROR_MESSAGES = [
+        "INVALID EMAIL OR PASSWORD."
     ]
