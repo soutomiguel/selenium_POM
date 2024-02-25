@@ -5,6 +5,7 @@ from utilities.clear_cache import delete_all_cookies
 
 
 class TestLogin:
+
     def setup_method(self):
         delete_all_cookies()
         self.driver = webdriver.Chrome()
@@ -43,7 +44,3 @@ class TestLogin:
         assert (
                 signin_page.get_login_invalid_credential_format_text() == TestData.ERROR_MESSAGES[0]
         )
-
-    def test_recover_the_password(self):
-        signin_page = SigninPage(self.driver)
-        pass

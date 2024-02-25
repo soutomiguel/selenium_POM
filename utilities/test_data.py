@@ -5,8 +5,13 @@ class TestData:
 
     SUCCESS_MESSAGES = [
         "Signed in successfully.",
+        "If your email address is correct, you will receive an email with instructions for how to confirm your email address in a few minutes.",
     ]
 
     ERROR_MESSAGES = [
-        "INVALID EMAIL OR PASSWORD."
+        "INVALID EMAIL OR PASSWORD.",
+    ]
+
+    TEXTS = [
+        "Sign In",
     ]
